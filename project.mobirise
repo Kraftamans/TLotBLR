@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Лотереи Беларусь",
+    "name": "Лотереи Беларусь-clone",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
@@ -58,7 +58,13 @@
     "robotsSwitcher": "on",
     "favicon": "",
     "noImageResize": "",
-    "google-analytics": ""
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-148454678-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-148454678-1');\r\n</script>",
+    "gdpr": {
+      "colorText": "#a7a7a7",
+      "colorLink": "#149dcc",
+      "underlineLink": false,
+      "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
+    }
   },
   "pages": {
     "index.html": {
